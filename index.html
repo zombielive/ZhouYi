@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+	<script src="./data.js"></script>
+	<script src="./zhouyi.js"></script>
+</head>
+<body>
+	<div id="text"></div>
+	<script>
+		var a = zhouYi([7,7,6,6,6,6]);
+		console.log(a);
+		var text = document.getElementById("text");
+		text.innerHTML = a.content;
+	</script>
+</body>
+</html>
