@@ -84,7 +84,5 @@ function getGuaIndex(drawGua){
 }
 function getGuaName(drawGua){
 	var guaIndex = getGuaIndex(drawGua)
-	if (guaIndex !== undefined) {//////删
 	return data[guaIndex].guaName
-	}else{return "还没写完"}///////删
 }
