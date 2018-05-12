@@ -1,0 +1,52 @@
+body{background: #F7EED6;margin: 0;padding: 0;color: #000;font-family: 'Microsoft YaHei';overflow: hidden;}
+a:focus{outline: none;}
+input:focus{outline: none;}
+#top{margin: auto;position: relative;background: #F7EED6;padding: 30px 0 0 0}
+#logo{margin: 0 auto 10px auto;width: 366px;height: 366px;background: url(./taiji.png);background-size: contain;}
+#header{width: 300px;margin: auto;padding: 10px;font-size: 40px;text-align: center;border-top: 2px solid #000;border-bottom: 2px solid #000}
+#content { 
+	width:100%;position: relative;
+	height:5px; 
+	margin: auto; 
+	padding: 30px 0;
+	background:#F7EED6;
+}
+
+.fullwidth .expand {
+	width:100%; 
+	height:2px; 
+	margin:2px 0; 
+	background:#FF6666; 
+	position:absolute;
+	box-shadow:0px 0px 10px 5px rgba(255,255,153,0.7);
+    -moz-animation:fullexpand 2s ease-in-out;
+	-webkit-animation:fullexpand 2s ease-in-out;
+}
+@-moz-keyframes fullexpand {
+	0%  { width:0px;}
+	100%{ width:100%;}	
+}
+@-webkit-keyframes fullexpand {
+	0%  { width:0px;}
+	100%{ width:100%;}	
+}
+.notice{width: 100%;position: absolute;top: 0;bottom: 0;z-index: 10;color: #c73e3a;}
+.notice h1{text-align: center;}
+.notice ul{width: 80%;list-style: none;}
+#bottom{margin: auto;position: relative;background: #F7EED6;padding-bottom: 200px;}
+.btn_red{font-size: 20px;margin: 0 auto 20px auto;padding: 10px;text-align: center;width: 40%;background: #c73e3a;color:#fff;border-radius:20px;cursor: pointer;}
+.btn_grey{font-size: 20px;margin: 0 auto 20px auto;padding: 10px;text-align: center;width: 40%;background: #666;color:#fff;border-radius:20px;cursor: pointer;}
+.btn_red:hover{box-shadow:0px 0px 10px 1px rgba(199,62,58,0.7);}
+.base{width: 100%;position: absolute;top: 0;z-index: -10;}
+#key_box{margin: 50px auto;text-align: center;}
+.tips{width: 400px;margin: 70px auto;font-size: 40px;text-align: center;border-top: 2px dashed #000;border-bottom: 2px solid #000}
+#ci{width: 80%;height: 200px;margin: 10px auto;padding: 5px;font-size: 20px;border: 1px solid #000;overflow: scroll;}
+#enter_key{padding: 10px 30px;border-radius: 27px;font-size: 30px;}
+#enter_key:focus{border: 2px solid #2187e7;box-shadow:0px 0px 20px 2px rgba(0,198,255,0.7);}
+.input_error{border: 2px solid #FF0000;box-shadow:0px 0px 20px 2px rgba(255,0,0,0.7);color: #FF0000}
+#info{margin-top: 10px;color: #FF0000}
+@media (max-width: 768px){
+	#logo{width: 200px;height: 200px;}
+	#header{width: 80%;font-size: 25px;}
+	.tips{width: 200px;font-size: 25px}
+}
