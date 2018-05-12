@@ -49,4 +49,5 @@ input:focus{outline: none;}
 	#logo{width: 200px;height: 200px;}
 	#header{width: 80%;font-size: 25px;}
 	.tips{width: 200px;font-size: 25px}
+	#enter_key{width: 250px}
 }
